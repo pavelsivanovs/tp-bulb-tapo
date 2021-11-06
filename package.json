@@ -1,0 +1,21 @@
+{
+  "name": "tp-link-bulb",
+  "version": "1.0.0",
+  "description": "This is a project for playing aroung with TP-Link Tapo bulb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "party-colours": "./bin/index.js"
+  },
+  "preferGlobal": true,
+  "author": "Pavels Ivanovs",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^10.0.0",
+    "tp-link-tapo-connect": "^1.0.6"
+  }
+}
